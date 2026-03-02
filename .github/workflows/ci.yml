@@ -5,4 +5,5 @@ jobs:
     uses: RogueOneEcho/ci/.github/workflows/docker.yml@v1
     with:
       docker-image: rogueoneecho/preflight
+      build-context: src
     secrets: inherit
