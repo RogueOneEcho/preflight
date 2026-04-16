@@ -1,4 +1,4 @@
-ARG ALPINE_VERSION=3.23.3
+ARG ALPINE_VERSION=3.23.4
 FROM alpine:${ALPINE_VERSION}
 RUN apk add --no-cache bash curl jq
 COPY logging ./logging
